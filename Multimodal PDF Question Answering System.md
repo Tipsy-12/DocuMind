@@ -83,8 +83,8 @@ pdf_qa_app/
 1. **PDF Processing**: Uses the `unstructured` library to extract text, tables, and images from PDFs
 2. **Content Summarization**: Summarizes text chunks and tables using Groq's LLaMA model
 3. **Image Captioning**: Generates descriptions for images using Google's Gemini model
-4. **Vector Storage**: Creates embeddings and stores them in ChromaDB for similarity search
-5. **Question Answering**: Retrieves relevant context and generates answers using the LLaMA model
+4. **Vector Storage**: Creates embeddings and stores them in DocArray for similarity search
+5. **Question Answering**: Retrieves relevant context and generates answers using the Gemini 2.0 Flash model
 
 ## Features in Detail
 
@@ -126,7 +126,7 @@ pdf_qa_app/
 
 - Currently optimized for research papers and academic documents
 - Processing time increases with PDF size and complexity
-- Requires internet connection for API calls
+- Requires an internet connection for API calls
 - Some PDF formats may not be fully supported
 
 ## Development
