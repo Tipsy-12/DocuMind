@@ -16,8 +16,8 @@ import io
 
 # Set environment variables (replace with actual keys or use Streamlit secrets)
 # Hardcoded GROQ API key as per original notebook
-os.environ["GROQ_API_KEY"] = "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"
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = " "
+os.environ["LANGCHAIN_API_KEY"] = " "
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 
 # Initialize models
